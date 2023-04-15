@@ -1,0 +1,301 @@
+@import "./reset.css";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap');
+  @font-face {
+    font-family: 'Gilroy';
+    src: local('Gilroy Bold'), local('Gilroy-Bold'),
+        url('Gilroy-Bold.woff2') format('woff2'),
+        url('Gilroy-Bold.woff') format('woff'),
+        url('Gilroy-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+
+    font-family: 'Gilroy';
+    src: local('Gilroy Medium'), local('Gilroy-Medium'),
+        url('Gilroy-Medium.woff2') format('woff2'),
+        url('Gilroy-Medium.woff') format('woff'),
+        url('Gilroy-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+  }
+
+body {
+    font-family: 'Gilroy', sans-serif;
+    font-size: 18px;
+}
+
+.container {
+    max-width: 1230px; 
+    padding: 0 30px; 
+    margin: 0 auto;
+}   
+
+/* header */
+
+.header {
+    margin: 32px 248px 39px 252px;
+
+}
+
+.header-nav__list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 32px;
+    border-bottom: 1px solid #828282;
+
+    transition: 0.3s ease-in;
+}
+
+
+.header-nav__list--item {
+    font-weight: 700;
+    font-size: 18px;
+
+    
+}
+
+.header-nav__list:hover{
+    color: #000;
+}
+
+.nav-link {
+    color: #828282;
+}
+
+/* main */
+
+.main {
+    margin-left: 0px;  
+    margin-top: 40px;
+    color: #000;
+
+}
+
+.title-1 {
+    padding-right: 299px;
+    font-weight: 700;
+    font-size: 48px;
+    padding-right: 298px;
+}
+
+.title-2 {
+    margin-top: 40px;
+    font-weight: 500;
+    font-size: 18px;
+    padding-right: 345px;
+}
+
+.titles {
+    display: flex;
+    justify-content: center;
+}
+
+.switcher {
+    padding-top: 50px;
+    color: #828282;
+    transform: rotate(-90deg);
+}
+
+.switcher span {
+    color: #000;
+}
+
+.image {
+    position: absolute;
+    width: 943.61px;
+    height: 387px;
+    left: 830.69px;
+    top: 286.94px;
+    background: url(/img/BSPP2266.jpg);
+}
+
+/* about */
+
+.title-1__about {
+    margin-top: 121px;
+    font-weight: 700;
+    font-size: 34px;
+    font-size: 34px;
+    line-height: 42px;
+    text-align: center;
+
+    color: #070707;
+
+}
+
+.about {
+    font-family: 'Gilroy', sans-serif;
+    background-color: #f6f6f6;
+    position: absolute;
+    width: 100%;
+    height: 506px;
+    left: 0;
+    top: 769px;
+    justify-content: center;
+    
+}
+
+.about-text p + p {
+    margin-top: 0.5em;
+}
+
+.about-text {
+    font-size: 18px;
+    font-weight: 500;
+    font-size: 34px;
+    line-height: 42px;
+    margin-top: 35px;
+    text-align: center;
+    width: 100%;
+
+    color: #070707;
+}
+
+/* skills */
+
+.skills {
+    margin-top: 1250px;  
+    text-align: center;
+}
+
+.skills h1 {
+    font-weight: 700;
+    font-size: 34px;
+}
+
+.skills p {
+    font-size: 18px;
+    font-weight: 500;
+    padding-top: 70px;
+}
+.skills-images {
+    font-family: 'Gilroy';
+    height: 506px;
+    left: 0;
+    top: 769px;
+    justify-content: center;
+    padding-top: 83px;
+}
+
+.ps {
+    margin-right: 130px;
+}
+
+.ai {
+    margin-right: 130px;
+}
+
+.ae {
+    margin-right: 130px;
+}
+
+/* portfolio */
+
+.portfolio {
+    padding: 90px 0;
+    background-color: #F1F1F1;
+}
+
+.portfolio-title {
+    margin-left: 335px;
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.project + .project {
+    margin-top: 90px;
+}
+
+.project {
+    text-align: center;
+}
+
+.project-img {
+    margin-bottom: 40px;
+}
+
+.project-title {
+    font-size: 18px;
+
+}
+
+.project-title a {
+    color: black;
+    text-decoration: underline; 
+}
+
+/* footer */
+
+.contacts {
+    padding: 90px 0;
+    text-align: center;
+}
+
+.container {
+    margin-bottom: 40px; 
+}
+
+.contacts-title {
+    margin-left: 300px;
+}
+
+.title-1 {
+
+}
+
+.btn {
+    display: inline-block;
+    padding: 7px 22px;
+    background-color: #070707;
+    border-radius: 30px;
+
+    font-size: 18px;
+    color: #fff;
+
+    transition: background-color 0.2s ease-in, top 0.2s ease-in;
+}
+
+.btn:hover, .btn:focus {
+    background-color: #323232;    
+}
+
+.btn:active {
+    background-color: #000000;
+    top: 1px;
+    position: relative;
+}
+
+.contacts-content {
+    padding-top: 40px;
+    max-width: 480px;
+    font-size: 18px;
+    margin-bottom: 40px;
+
+    margin: 0 auto 40px;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.contacts-content p + p {
+    margin-top: 1em;
+}
+
+
+.contacts-button {
+    margin-bottom: 80px;
+}
+
+.contacts-social {
+    display: flex;
+    justify-content: center;
+    column-gap: 60px;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.contacts-footer {
+    font-size: 14px;
+    color: #828282;
+}
